@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(36, 53, 63);
+}
+.content{
+    background-color: rgb(36, 53, 63);
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: rgb(23, 162, 184);
+    font-weight: 400;
+}
+h2{
+    color: rgb(23, 162, 184);
+    font-size: 3rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px white;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logoutbtn{
+    background-color: white;
+    box-shadow: rgb(23, 162, 184) 2px 2px 4px;
+    color: rgb(23, 162, 184);
+    border: 0px solid transparent;
+}
+.btn{
+    background: transparent;
+    color: rgb(23, 162, 184);
+    border: 1px solid rgb(23, 162, 184);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover{
+    background-color: rgb(23, 162, 184);
+    color: white;
+}
+#signinEmail, 
+#signupEmail, 
+#signinPassword,
+#signupPassword,
+#signupName{
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(182, 182, 182);
+}
+#signinEmail::placeholder, 
+#signupEmail::placeholder, 
+#signinPassword::placeholder,
+#signupPassword::placeholder,
+#signupName::placeholder{
+    color:rgb(182, 182, 182);
+}
+#signinEmail:focus, 
+#signupEmail:focus, 
+#signinPassword:focus,
+#signupPassword:focus,
+#signupName:focus{
+    box-shadow: none;
+    border: 1px solid rgb(128, 189, 255);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
